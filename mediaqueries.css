@@ -1,0 +1,24 @@
+@media only screen and (max-width:360){
+    .img-adjust{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    tr th{
+        padding: 0;
+    }
+    .passport{
+        width: 55%;
+    }
+    .aboutself{
+        width: 50%;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:360px){
+body{
+    font-size: 0.7rem;
+}
+}
