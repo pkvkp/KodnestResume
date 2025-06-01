@@ -104,3 +104,76 @@ tr td {
 .details div:last-child{
     width: 60%;
 }
+
+/* Styling for Hobbies and Interests section (section-6) */
+.section-6 .hobbies-list ul {
+    list-style-type: none; /* Ensures no bullets */
+    padding-left: 10px; /* Indent items slightly */
+    margin-top: 5px;
+}
+
+.section-6 .hobbies-list li {
+    margin-bottom: 5px; /* Space between hobby items */
+}
+
+/* Styling for Contact Me section (section-7) */
+.section-7 .contact-form {
+    padding: 10px;
+}
+
+.section-7 .contact-form label {
+    display: block; /* Makes labels take full width and appear on their own line */
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.section-7 .contact-form input[type="text"],
+.section-7 .contact-form input[type="email"],
+.section-7 .contact-form textarea {
+    width: 100%; /* Make form fields take full width of their container */
+    padding: 8px;
+    margin-bottom: 10px; /* Space below each field */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for width calculation */
+}
+
+.section-7 .contact-form textarea {
+    resize: vertical; /* Allow vertical resize, not horizontal */
+}
+
+.section-7 .contact-form input[type="submit"] {
+    background-color: #4CAF50; /* A common green color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.section-7 .contact-form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Styling for social media links in .aboutself */
+.aboutself .listing-order li a {
+    text-decoration: none;
+    color: #007bff; /* Standard link blue */
+}
+
+.aboutself .listing-order li a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add some padding to section headers for consistency if not already present elsewhere */
+/* .header {
+    margin-bottom: 10px;
+    padding-left: 5px;
+} */
+
+/* General section padding - might be useful, or could be too broad */
+/* .section-1, .Education, .section-3, .section-4, .section-5, .section-6, .section-7 {
+    padding: 10px 0;
+} */
